@@ -150,6 +150,7 @@ button {
     gap: 25px;
     border-radius: 8px;
     background: #F6F6F6;
+    padding: 5px 15px;
 }
 
 .info-sec {
@@ -293,10 +294,15 @@ footer span {
 
     body {
         padding: 0 10px;
+        right: 0;
     }
 
     .top-effect {
         width: 400px;
+    }
+
+    .middle-effect {
+        height: 500px;
     }
 
     nav ul {
@@ -307,7 +313,39 @@ footer span {
         flex-direction: column;
     }
 
+    main article {
+        align-items: center;
+    }
+
+    main h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        color: #272D38;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 32px */
+        text-transform: capitalize;
+    }
+
     .partners {
         width: 100%;
+    }
+
+    .partners div {
+        padding: 5px 15px;
+    }
+
+    .partners img {
+        width: 65px;
+        
+    }
+
+    .info-sec img {
+        width: 70%
     }
 }
