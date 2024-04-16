@@ -229,14 +229,23 @@ button {
 
 .contact {
     display: flex;
+    gap: 30px;
     align-items: center;
     background: #F6F6F6;
-    margin: 5% 12%;
-    padding: 20px;
+    margin: 5% 10%;
+    padding: 40px;
+    border-radius: 20px;
 }
 
 .contact img {
-    width: 30%;
+    width: 400px;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    gap: 25px;
 }
 
 footer {
